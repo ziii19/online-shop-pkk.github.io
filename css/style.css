@@ -1,0 +1,153 @@
+body {
+  margin: o;
+  padding: o;
+  font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Merriawether", serif;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.jc-spacebetween {
+  justify-content: space-between;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.spacersection {
+  padding: 2% 0;
+}
+
+.spacercontent {
+  margin-top: 20px;
+}
+
+.big-title {
+  font-size: 3.2em;
+}
+
+.big-btn {
+  padding: 20px 40px;
+  background: black;
+  color: bisque;
+  display: inline-block;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.header .nav-brand h1 a {
+  color: black;
+  text-decoration: none;
+}
+.header .nav-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.header .nav-menu ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+.header .nav-menu ul li a:hover {
+  font-weight: bold;
+}
+
+.hero-desc {
+  width: 40%;
+}
+.hero-desc p {
+  font-size: 14px;
+  line-height: 180%;
+}
+.hero-image {
+  width: 55%;
+}
+
+.category-item {
+  height: 380px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.category-item .overlay {
+  opacity: 0;
+  z-index: 5;
+  position: absolute;
+  padding: 20px;
+  height: 100%;
+  width: 96%;
+  background-color: rgba(115, 71, 40, 0.72);
+  color: white;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+}
+.category-item .overlay .btn-outline {
+  padding: 15px;
+  background: none;
+  color: white;
+  display: inline-block;
+  border: 2px solid #fff;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+.category-item:hover .overlay {
+  opacity: 1;
+}
+.category-item img {
+  filter: blur(0px);
+  transition: cubic-bezier(0.215, 0.61, 0.355, 1) 3s;
+}
+.category-item:hover img {
+  filter: blur(4px);
+}
+
+.shopping-item {
+  width: 18%;
+}
+.shopping-item h3 {
+  margin-bottom: 5px;
+}
+.shopping-item h4 {
+  margin-bottom: 10px;
+}
+.shopping-item a {
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+}
+
+.footer {
+  background: black;
+  color: bisque;
+}/*# sourceMappingURL=style.css.map */
